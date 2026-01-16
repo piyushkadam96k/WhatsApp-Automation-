@@ -87,7 +87,7 @@ python send_whatsapp_auto.py --contacts contacts.csv --message "Hello everyone" 
 🎨 Tips & decorations
 - Use `--profile-dir` pointing to `playwright_userdata/Default` to persist login and skip repeated QR scans.
 - Use `--delay` and `--repeat` responsibly to mimic human behaviour and reduce rate-limiting risk.
-- Test with `--dry-run` and small `--repeat` values before bulk sending.
+- Test with `--dry-run` and small `--repeat` values before bulk sending
 
 🛠️ Troubleshooting
 - QR not showing / login issues: remove `playwright_userdata/Default` to force fresh login, or ensure Playwright browsers are installed.
@@ -101,3 +101,4 @@ python send_whatsapp_auto.py --contacts contacts.csv --message "Hello everyone" 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ✨ Happy automating! 🚀
+
